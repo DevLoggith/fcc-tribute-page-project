@@ -1,5 +1,24 @@
-# FCC Tribute Page
+# FreeCodeCamp Tribute Page Project
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/Loggith/pen/MWGvpgq](https://codepen.io/Loggith/pen/MWGvpgq).
+This project is my entry for the Free Code Camp tribute page project, part of the responsive web design curriculum. It features ths basics of HTML and CSS, with an emphasis on mobile first development.
 
-My entry for the FreeCodeCamp tribute page project.
+## Live Demo
+
+You can view a live demo of the project in your browser [here](https://devloggith.github.io/fcc-tribute-page-project/).
+
+![](media/Demo-GIF.GIF)
+
+## Features
+
+- Responsive design
+- Mobile first development
+- Adherence to accessability standards
+
+## Technologies Used
+
+- HTML
+  - Proper semantic usage and structure
+  - Flexbox
+- CSS
+  - Reset
+  - Clamp functions
