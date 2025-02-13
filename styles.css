@@ -10,20 +10,15 @@
 body,
 h1,
 h2,
-h3,
-h4,
 p,
 figure,
-blockquote,
-dl,
-dd {
+blockquote {
   margin: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests
 default styling will be removed */
-ul[role="list"],
-ol[role="list"] {
+ul[role="list"] {
   list-style: none;
 }
 
@@ -45,17 +40,8 @@ a:not([class]) {
 }
 
 /* Make images easier to work with */
-img,
-picture {
+img {
   max-width: 100%;
-}
-
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit;
 }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer
@@ -80,14 +66,12 @@ not to see them */
 /* global styling */
 body {
   text-align: center;
-  margin: 0;
 }
 
 /* title-bar styling */
 #title {
   font-family: "DM Serif Display", serif;
   font-size: clamp(3rem, 15.75vw, 4rem);
-  margin: 0;
   line-height: 90%;
   margin-top: 1rem;
 }
@@ -95,12 +79,6 @@ body {
 #title-subtext {
   margin-bottom: 1rem;
   font-size: clamp(0.9rem, 3.95vw, 1rem);
-}
-
-#title-subtext,
-#img-caption {
-  margin-top: 0;
-  /* font-size: 1rem; */
 }
 
 h2,
@@ -123,21 +101,15 @@ ul {
   background-color: #efefef;
 }
 
-#img-div {
-  max-width: 600px;
-  margin: 0 auto;
-  padding-top: 1.3rem;
-}
-
 #image {
   max-width: 90vw;
   min-width: 132px;
   height: auto;
   margin: auto;
+  padding-top: 1.3rem;
 }
 
 #img-caption {
-  /* font-size: 0.75rem; */
   font-size: clamp(0.65rem, 1.8vw, 0.75rem);
   text-align: right;
   padding-bottom: 0.25rem;
@@ -155,13 +127,10 @@ ul {
   display: inline-block;
   border-bottom: 2px solid #6f7378;
   margin-bottom: 0.5rem;
-  max-width: 900px;
-  text-align: center;
   font-size: clamp(1.35rem, 6.38vw, 2rem);
 }
 
 .section-info {
-  max-width: 900px;
   text-align: left;
   font-size: clamp(0.9rem, 3.19vw, 1rem);
 }
@@ -189,7 +158,6 @@ footer img {
 }
 
 footer p {
-  margin: 0 auto;
   font-size: clamp(0.9rem, 3.19vw, 1rem);
 }
 
